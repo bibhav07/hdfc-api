@@ -58,13 +58,13 @@ Logging in user on based of input data. In backend I am first finding the user o
 -> https://hdfc-api.herokuapp.com/api/v1/movies?city=mumbai : here we are fetching movies in a particular city ie mumbai by passing the query parameter city=mumbai
 
 3: Get particular movie in particular city
--> https://hdfc-api.herokuapp.com/api/v1/movies?city=mumbai&movie=steve jobs : fetching steve jobs movie only in mumbai cinemas. Along with show times.
+-> https://hdfc-api.herokuapp.com/api/v1/movies?city=mumbai&movie=steve%20jobs : fetching steve jobs movie only in mumbai cinemas. Along with show times.
 
 4: Get particular cinema in particular city
--> https://hdfc-api.herokuapp.com/api/v1/movies?city=mumbai&cinema=mumbai star : fetching "mumbai star" cinema only in mumbai. Along with show times.
+-> https://hdfc-api.herokuapp.com/api/v1/movies?city=mumbai&cinema=mumbai%20star : fetching "mumbai star" cinema only in mumbai. Along with show times.
 
 5: Get particular movie in particular city in particular cinema, Along with show times
--> https://hdfc-api.herokuapp.com/api/v1/movies?city=mumbai&cinema=mumbai star&city=mumbai
+-> https://hdfc-api.herokuapp.com/api/v1/movies?city=mumbai&cinema=mumbai%20star&movie=steve%20jobs
 
 
 # booking movie tickets
