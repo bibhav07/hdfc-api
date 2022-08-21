@@ -1,0 +1,13 @@
+//this is an .env example file.
+//1. create .env file and paste all below values in it.
+//2. ALLOWED_CLIENTS are nothing but the simple local servers allowed to hit our api, just for cors.
+//3. JWT_LIFETIME is time when JWT token will expire, in our case i.e 3days
+//4. JWT_SECRET is secret-key while generating the token
+//5. MONGO_URI is database connection, replace USERNAME, PASSWORD and DATABASE with your real credentials.
+//6. PORT is endpoint of our network connection
+
+ALLOWED_CLIENTS=http://localhost:7766,http://localhost:3000
+JWT_LIFETIME=3d
+JWT_SECRET=HDFC_SECRET
+MONGO_URI=mongodb+srv://USERNAME:PASSWORD@cluster0.fykf0.mongodb.net/DATABASE?retryWrites=true&w=majority
+PORT=7766
